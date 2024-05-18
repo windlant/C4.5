@@ -1,0 +1,16 @@
+digraph G {
+	0 [label="根蒂" fontname=FangSong]
+	15 [label="坏瓜" fontname=FangSong]
+	0 -> 15 [label="稍蜷" fontname=FangSong]
+	16 [label="坏瓜" fontname=FangSong]
+	0 -> 16 [label="硬挺" fontname=FangSong]
+	17 [label="纹理" fontname=FangSong]
+	0 -> 17 [label="蜷缩" fontname=FangSong]
+	18 [label="好瓜" fontname=FangSong]
+	17 -> 18 [label="稍糊" fontname=FangSong]
+	19 [label="坏瓜" fontname=FangSong]
+	17 -> 19 [label="模糊" fontname=FangSong]
+	20 [label="好瓜" fontname=FangSong]
+	17 -> 20 [label="清晰" fontname=FangSong]
+	rankdir=RB ranksep=0
+}

@@ -1,0 +1,14 @@
+    Sepal.Length  Sepal.Width  Petal.Length  Petal.Width    Species
+0            5.0          3.0           1.6          0.2     setosa
+1            5.0          3.4           1.6          0.4     setosa
+2            5.2          3.5           1.5          0.2     setosa
+3            5.2          3.4           1.4          0.2     setosa
+4            4.7          3.2           1.6          0.2     setosa
+..           ...          ...           ...          ...        ...
+70           6.7          3.0           5.2          2.3  virginica
+71           6.3          2.5           5.0          1.9  virginica
+72           6.5          3.0           5.2          2.0  virginica
+73           6.2          3.4           5.4          2.3  virginica
+74           5.9          3.0           5.1          1.8  virginica
+
+[75 rows x 5 columns]

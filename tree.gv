@@ -1,0 +1,22 @@
+digraph G {
+	0 [label="纹理" fontname=FangSong]
+	1 [label="触感" fontname=FangSong]
+	0 -> 1 [label="清晰" fontname=FangSong]
+	2 [label="好瓜" fontname=FangSong]
+	1 -> 2 [label="硬滑" fontname=FangSong]
+	3 [label="密度" fontname=FangSong]
+	1 -> 3 [label="软粘" fontname=FangSong]
+	4 [label="坏瓜" fontname=FangSong]
+	3 -> 4 [label="<=0.3815" fontname=FangSong]
+	5 [label="好瓜" fontname=FangSong]
+	3 -> 5 [label=">0.3815" fontname=FangSong]
+	6 [label="触感" fontname=FangSong]
+	0 -> 6 [label="稍糊" fontname=FangSong]
+	7 [label="好瓜" fontname=FangSong]
+	6 -> 7 [label="软粘" fontname=FangSong]
+	8 [label="坏瓜" fontname=FangSong]
+	6 -> 8 [label="硬滑" fontname=FangSong]
+	9 [label="坏瓜" fontname=FangSong]
+	0 -> 9 [label="模糊" fontname=FangSong]
+	rankdir=RB ranksep=0
+}
